@@ -11,31 +11,37 @@ html_theme_options:
 html_title: "プロジェクトドキュメント"
 ---
 
-# Sphinxテーマ設定
+# Sphinx テーマ設定
 
-このファイルはSphinxのHTMLテーマとその設定を管理します。
+このファイルは Sphinx の HTML テーマとその設定を管理します。
 
 ## 利用可能なテーマ:
 
 ### **Furo** (推奨)
+
 モダンで清潔なデザインのテーマ
+
 ```bash
 uv add furo --group docs
 ```
 
 ### **Sphinx RTD Theme**
-Read the Docsスタイルの定番テーマ
+
+Read the Docs スタイルの定番テーマ
+
 ```bash
 uv add sphinx-rtd-theme --group docs
 ```
 
-### **Sphinx Book Theme**  
-Jupyter Bookスタイルのテーマ
+### **Sphinx Book Theme**
+
+Jupyter Book スタイルのテーマ
+
 ```bash
 uv add sphinx-book-theme --group docs
 ```
 
 ## テーマ固有オプション:
 
-上記のYAML Front Matterでテーマオプションを設定できます。
+上記の YAML Front Matter でテーマオプションを設定できます。
 `/sphinx-update`コマンドで`conf.py`に自動反映されます。
