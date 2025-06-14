@@ -1,0 +1,17 @@
+[project]
+name = "claude-sphinx-toolkit"
+version = "0.1.0"
+description = "Claude Code Sphinx管理システム"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+docs = [
+    "furo>=2024.8.6",
+    "linkify-it-py>=2.0.3",
+    "myst-parser[sphinx]>=4.0.1",
+    "sphinx>=8.2.3",
+    "sphinx-copybutton>=0.5.2",
+    "sphinx-design>=0.6.1",
+]
